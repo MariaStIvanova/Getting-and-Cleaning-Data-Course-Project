@@ -31,13 +31,14 @@ Features, in other words, signals are normalized and bounded within [-1,1]. Ther
 
 ### summary(TidyDT)
 
-average        
-Min.   :-0.99767  
-1st Qu.:-0.94151  
-Median :-0.39653  
-Mean   :-0.42791  
-3rd Qu.:-0.07633  
-Max.   : 0.97451  
+subject | activityname | domain | acceleration | instrument | jerk | magnitude | measurement | axis | average
+------- | ------------ | ------ | ------------ | ---------- | ---- | --------- | ----------- | ---- | -------
+Min.:1.0 | LAYING:1980 | Frequency:4680 | Body:5760 | Accelerometer:7200 | Jerk:4680 | Magnitude:3240 | Mean:5940 | X :2880 | Min.:-0.99767
+1st Qu.:8.0 | SITTING:1980 | Time:7200 | Gravity:1440 | Gyroscope:4680 | NA's:7200 | NA's:8640 | SD:5940 | Y:2880 | 1st Qu.:-0.94151
+Median:15.5 | STANDING:1980 | <NA> | NA's:4680 | <NA> | <NA> | <NA> | <NA> | Z:2880 | Median:-0.39653
+Mean:15.5 | WALKING:1980 | <NA> | <NA> | <NA> | <NA> | <NA> | <NA> | NA's:3240 | Mean:-0.42791
+3rd Qu.:23.0 | WALKING_DOWNSTAIRS:1980 | <NA> | <NA> | <NA> | <NA> | <NA> | <NA> | <NA> | 3rd Qu.:-0.07633                               
+Max.:30.0 | WALKING_UPSTAIRS:1980 | <NA> | <NA> | <NA> | <NA> | <NA> | <NA> | <NA> |Max.: 0.97451                                     
 
 ## Exemplary rows, 6 at random 
 
