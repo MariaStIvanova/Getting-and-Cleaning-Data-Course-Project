@@ -26,3 +26,12 @@ average | Numeric | Average for each activity and each subject
 
 ## Units 
 Features, in other words, signals are normalized and bounded within [-1,1]. Therefore the units of their respective averages are the same, namely unitless. They range between -0.99767 and 0.97451. 
+
+## Exemplary rows, 6 at random 
+
+### TidyDT[sample(nrow(TidyDT), 6), ]
+
+subject | activityname | domain | acceleration | instrument | jerk | magnitude | measurement | axis | average
+------- | ------------ | ------ | ------------ | ---------- | ---- | --------- | ----------- | ---- | -------
+13 | SITTING | Time | Gravity | Accelerometer | <NA> | <NA> | Mean | Z | 0.07577739
+26 | STANDING | Time | <NA> | Gyroscope | Jerk | Magnitude | Mean | <NA> | -0.98854483
