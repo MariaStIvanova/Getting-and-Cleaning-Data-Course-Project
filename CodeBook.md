@@ -31,7 +31,7 @@ Features, in other words, signals are normalized and bounded within [-1,1]. Ther
 
 ### summary(TidyDT)
 
-subject         activityname              domain           acceleration   instrument           jerk        magnitude        measurement axis     
+subject | activityname | domain | acceleration | instrument | jerk | magnitude | measurement | axis     
  Min.   : 1.0   LAYING            :1980   Frequency:4680   Body   :5760   Accelerometer:7200   Jerk:4680   Magnitude:3240   Mean:5940   X   :2880  
  1st Qu.: 8.0   SITTING           :1980   Time     :7200   Gravity:1440   Gyroscope    :4680   NA's:7200   NA's     :8640   SD  :5940   Y   :2880  
  Median :15.5   STANDING          :1980                    NA's   :4680                                                                 Z   :2880  
